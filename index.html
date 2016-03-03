@@ -16,13 +16,13 @@
     <script>
       System.config({
         packages: {        
-          app: {
+          src: {
             format: 'register',
             defaultExtension: 'js'
           }
         }
       });
-      System.import('src/app/students')
+      System.import('src/app')
             .then(null, console.error.bind(console));
     </script>
     <starter-app>Loading...</starter-app>

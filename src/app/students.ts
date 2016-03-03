@@ -1,6 +1,5 @@
 import {Component} from 'angular2/core';
 import {HTTP_PROVIDERS, Http} from 'angular2/http';
-import 'rxjs/add/operator/map';
 
 @Component({
     selector: 'starter-app',
