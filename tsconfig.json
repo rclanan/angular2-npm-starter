@@ -1,5 +1,5 @@
 {
-  "compilerOptions": {
+    "compilerOptions": {
     "declaration": false,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
@@ -12,5 +12,12 @@
     "sourceMap": true,
     "sourceRoot": "/",
     "target": "es5"
-  }
+    },
+    "exclude": [
+        "typings/browser.d.ts",
+        "typings/browser",
+        "typings/main.d.ts",
+        "typings/main",
+        "node_modules"
+    ]
 }

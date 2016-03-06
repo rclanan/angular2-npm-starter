@@ -4,7 +4,7 @@ import {HTTP_PROVIDERS, Http} from 'angular2/http';
 @Component({
     selector: 'starter-app',
     providers: [HTTP_PROVIDERS],
-    templateUrl: 'app/students.html',
+    templateUrl: 'src/app/students.html',
     directives: [],
     pipes: []
 })
