@@ -28,11 +28,12 @@
     }
   ],
   "scripts": {
-    "start": "concurrently \"npm run lint\" \"npm run tsc:w\" \"npm run lite\" ",
-    "tsc": "tsc",
-    "tsc:w": "tsc -w",
+    "start": "concurrently \"npm run build\" \"npm run lint\" \"npm run tsc:w\" \"npm run lite\" ",
+    "tsc": "tsc --sourceMap --rootDir src --outDir dist",
+    "tsc:w": "npm run tsc -w",
     "lint": "tsconfig-lint",
     "lite": "lite-server",
+    "build": "cp src/app/*.html dist/app/",
     "typings": "typings",
     "postinstall": "typings install"
   },

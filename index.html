@@ -16,13 +16,13 @@
     <script>
         System.config({
             packages: {
-                src: {
+                dist: {
                     format: 'register',
                     defaultExtension: 'js'
                 }
             },
         });
-        System.import('src/app').then(null, console.error.bind(console));
+        System.import('dist/app').then(null, console.error.bind(console));
     </script>
 </head>
 <body>
