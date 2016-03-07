@@ -28,9 +28,10 @@
     }
   ],
   "scripts": {
-    "start": "concurrently \"tsconfig-lint\" \"npm run tsc:w\" \"npm run lite\" ",
+    "start": "concurrently \"npm run lint\" \"npm run tsc:w\" \"npm run lite\" ",
     "tsc": "tsc",
     "tsc:w": "tsc -w",
+    "lint": "tsconfig-lint",
     "lite": "lite-server",
     "typings": "typings",
     "postinstall": "typings install"
