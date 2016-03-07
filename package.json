@@ -1,6 +1,32 @@
 {
   "name": "angular2-npm-starter",
   "version": "0.0.1",
+  "description": "Fusion Alliance Angular2 NPM Starter",
+  "homepage": "https://github.com/fusionalliance/angular2-npm-starter",
+  "keywords": [
+    "angular2",
+    "npm",
+    "starter"
+  ],
+  "author": "Fusion Alliance",
+  "contributors": [
+    "Allen Buckley <allensb@gmail.com>",
+    "Ray Clanan <rclanan@utopianconcept.com>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:fusionalliance/angular2-npm-starter.git"
+  },
+  "bugs": {
+    "mail": "code@fusionalliance.com",
+    "url": "https://github.com/fusionalliance/angular2-npm-starter/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://raw.githubusercontent.com/fusionalliance/angular2-npm-starter/master/LICENSE"
+    }
+  ],
   "scripts": {
     "start": "concurrently \"npm run tsc:w\" \"npm run lite\" ",    
     "tsc": "tsc",
@@ -9,7 +35,6 @@
     "typings": "typings",
     "postinstall": "typings install" 
   },
-  "license": "MIT",
   "dependencies": {
     "angular2": "2.0.0-beta.7",
     "systemjs": "0.19.22",
