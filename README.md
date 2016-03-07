@@ -1,6 +1,6 @@
 # Fusion Alliance Angular2 NPM Starter
 
-[![Join the chat at https://gitter.im/fusionalliance/angular2-npm-starter]
+[![Join the chat at https://gitter.im/fusionalliance/angular2-npm-starter](https://img.shields.io/gitter/room/nwjs/nw.js.svg)](https://gitter.im/fusionalliance/angular2-npm-starter?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 Angular2 project using NPM scripts as the build tool.
 
