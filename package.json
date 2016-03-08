@@ -21,12 +21,7 @@
     "mail": "code@fusionalliance.com",
     "url": "https://github.com/fusionalliance/angular2-npm-starter/issues"
   },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://raw.githubusercontent.com/fusionalliance/angular2-npm-starter/master/LICENSE"
-    }
-  ],
+  "license": "MIT",
   "scripts": {
     "start": "concurrently \"npm run build\" \"npm run lint\" \"npm run tsc:w\" \"npm run lite\" ",
     "tsc": "tsc --sourceMap --rootDir src --outDir dist",
