@@ -1,7 +1,7 @@
+[![Join the chat at https://gitter.im/fusionalliance/angular2-npm-starter](https://badges.gitter.im/fusionalliance/angular2-npm-starter.svg)](https://gitter.im/fusionalliance/angular2-npm-starter?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) [![Dependencies](https://david-dm.org/fusionalliance/angular2-npm-starter.svg)](https://david-dm.org/fusionalliance/angular2-npm-starter)
+
 # Angular2 NPM Starter
 > by Fusion Alliance - @fusionalliance
-
-[![Join the chat at https://gitter.im/fusionalliance/angular2-npm-starter](https://badges.gitter.im/fusionalliance/angular2-npm-starter.svg)](https://gitter.im/fusionalliance/angular2-npm-starter?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) [![Dependencies](https://david-dm.org/fusionalliance/angular2-npm-starter.svg)](https://david-dm.org/fusionalliance/angular2-npm-starter)
 
 Angular2 project using NPM scripts as the build tool.
 
