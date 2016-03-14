@@ -2,15 +2,15 @@
 <html>
 <head>
     <title>Angular 2 NPM Starter</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">    
-    <!-- 1. Load libraries -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <script src="node_modules/angular2/bundles/angular2-polyfills.js"></script>
     <script src="node_modules/systemjs/dist/system.src.js"></script>
     <script src="node_modules/rxjs/bundles/Rx.js"></script>
     <script src="node_modules/angular2/bundles/angular2.dev.js"></script>
-
-    <!-- Add the http library -->
     <script src="node_modules/angular2/bundles/http.dev.js"></script>
+
+    <link href="dist/assets/css/app.css" rel="stylesheet">
 
     <!-- 2. Configure SystemJS -->
     <script>
@@ -26,6 +26,9 @@
     </script>
 </head>
 <body>
+<header class="clearfix">
+    <nav class="navbar"><a href="#/">Angular2 NPM Starter</a></nav>
+</header>
 <!--3. Display the application -->
 <starter-app>Loading...</starter-app>
 </body>
