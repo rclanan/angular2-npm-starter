@@ -29,7 +29,7 @@
     "lint": "tsconfig-lint",
     "lite": "lite-server",
     "build": "cp src/app/*.html dist/app/",
-    "typings": "typings",
+    "typings": "typings install",
     "postinstall": "typings install"
   },
   "dependencies": {
