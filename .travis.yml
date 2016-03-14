@@ -2,7 +2,11 @@ language: node_js
 node_js:
     - '4'
     - '5'
-script: npm start
+script:
+    - npm run typings
+    - npm run lint
+    - npm run tsc
+    - npm run build
 webhooks:
    urls:
      - https://webhooks.gitter.im/e/c4dbb23e925003b3dbcf
